@@ -48,7 +48,7 @@ To get your Notion API key, go to the Notion API page (https://developers.notion
 Follow the instructions to create a new integration and obtain your API key.
 Once you have your database ID and API key, you can replace the placeholders YOUR_DATABASE_ID and YOUR_API_KEY in the JavaScript code I provided with your actual values.
 
-*** Here I copied the code and I creted the first iteration folder ***
+**Here I copied the code and I creted the first iteration folder**
 
 _Test number 1:_
   With the first test I copied the whole code from chatGPT and replaced with my Notion Database ID and API key.
