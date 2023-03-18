@@ -6,4 +6,8 @@ The website's texts, images, and videos will be retrieved directly from a public
 By creating a personal website using chatGPT, I hope to showcase the power and capabilities of AI in web development. Moreover, I believe that this project will serve as a stress-test for chatGPT, allowing me to gain a deeper understanding of the platform's limitations and possibilities.
 
 ## ChatGPT conversations - Part 1: Creating the projects page with Notion connected
-*coming soon...*
+*Me:*
+  > Hello chatGPT, let's call this chat "personalWebsite". I want to co-create with you my portfolio are you ready?
+  
+*ChatGPT:*
+  > Hello! I'm ready to assist you in co-creating your portfolio for your personal website. Let's get started!
