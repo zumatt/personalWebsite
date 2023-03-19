@@ -1,9 +1,9 @@
 const { Client } = require('@notionhq/client');
 
-const notion = new Client({ auth: process.env.secret_m5wIN0PcbTMPkuaKPReqYi2XGBg1n4H4p4UM2qVb1Gm });
+const notion = new Client({ auth: process.env.SECRETKEY });
 
 (async () => {
-  const databaseId = 'a0195613c3d84fa1bb5f1737d7a48895';
+  const databaseId = 'DatabaseID';
   const response = await notion.databases.query({
     database_id: databaseId,
     filter: {
