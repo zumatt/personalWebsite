@@ -52,3 +52,29 @@ Once you have your database ID and API key, you can replace the placeholders YOU
 
 _Test number 1:_
 With the first test I copied the whole code from chatGPT and replaced with my Notion Database ID and API key.
+
+The first test failed, the problem was on using the wrong API. In fact chatGPT used the API from Airtable instead of using the ones from Notion.
+
+_Test number 2:_ Here I simply asked chatGPT to rewrite the code using the API from Notion.
+
+The second test failed, the problem was on an error of Notion API, that chatGPT cannot get starting looping inside the same error. Here I choosed to ask wich method can I use to create the same result. ChatGPT suggest to use Airtable instead of Notion. Anyway I want to try another time by creating a new chat and simplify the first request.
+
+## ChatGPT conversations - Part 2: Create a webpage and read data from a Notion database.
+*Me:*
+  >Hey ChatGPT, could you code a simple webpage that reads data from a Notion Database?
+
+*ChatGPT:*
+  >Sure, I can help you with that! Here's a simple webpage that uses Notion's API to read data from a database:
+
+Another time the code that ChatGPT is sharing is not working, I tried asking few other trial but the error persist. After a research, I discovered that to use Notion APIs you need to install Node.js. So I asked to chatGPT if this is true:
+
+*Me:*
+  >It seems that the Notion APIs require node.js do work. Maybe I need to install something before?
+
+*ChatGPT:*
+  >Yes, to use the Notion API in JavaScript, you will need to have Node.js installed on your computer. If you haven't installed it already, you can download it from the official Node.js website (https://nodejs.org/en/).
+
+So, I will move to another method.
+
+## ChatGPT conversations - Part 3: Changing database, trial with Airtable.
+*coming soon...*
