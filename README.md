@@ -76,5 +76,11 @@ Another time the code that ChatGPT is sharing is not working, I tried asking few
 
 So, I will move to another method.
 
-## ChatGPT conversations - Part 3: Changing database, trial with Airtable.
-*coming soon...*
+## ChatGPT conversations - Part 3: Changing database, trial with JSON file.
+*Me:*
+  >Can you create a html page that contains projects that takes title, description and image from a JSON file?
+
+*ChatGPT:*
+  >Yes, I can help you with that. Here is an example of an HTML page that uses JavaScript to load project data from a JSON file and display it on the page:
+
+**Here I copied the code and I creted the third iteration folder**
