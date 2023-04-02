@@ -1,44 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Notion Database Page</title>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</head>
-<body>
-  <h1>Notion Database</h1>
-  <ul id="database-list"></ul>
-
-  <script>
-    $(document).ready(function() {
-      const databaseId = "databaseID";
-      const url = "https://api.notion.com/v1/databases/" + databaseId + "/query";
-      const options = {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Notion-Version": "2021-08-16",
-          "Authorization": "Bearer SecretKey",
-        },
-        body: JSON.stringify({
-          "filter": {
-            "property": "Name",
-            "title": {}
-          }
-        }),
-      };
-      fetch(url, options)
-        .then(response => response.json())
-        .then(data => {
-          const list = document.getElementById("database-list");
-          for (const item of data.results) {
-            const title = item.properties.Name.title[0].text.content;
-            const description = item.properties.Description.rich_text[0].text.content;
-            const listItem = document.createElement("li");
-            listItem.appendChild(document.createTextNode(title + ": " + description));
-            list.appendChild(listItem);
-          }
-        });
-    });
-  </script>
-</body>
+  <head>
+    <title>My Projects</title>
+  </head>
+  <body>
+    <div id="projects"></div>
+    <script src="assets/script.js"></script>
+  </body>
 </html>
+
