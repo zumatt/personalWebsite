@@ -1,5 +1,10 @@
 # Interaction Designer Portfolio
 
+The project started in order to create a portfolio creating a CMS using Notion or other methods to share content.
+After a bit of research (that you can find here below) I swapped into a static website coded using only chatGPT in order to check the capabilities of AI for web development.
+
+# Notes and conversations with chatGPT
+
 The goal is to create a personal website to showcase my projects. My aim is to use [chatGPT](https://openai.com/blog/chatgpt), an AI language model, to create the entire portfolio.
 The website will have a homepage that will display four featured projects, a repository page containing all completed projects, and a blog page for news related to the interaction design industry. To build the website, I will use standard pages connected to a database created through [Notion](https://www.notion.so/). This will make it easy to insert my projects into the website.
 The website's texts, images, and videos will be retrieved directly from a public Notion page. This will give me a simple CMS to use, and I can also use [NotionAI](https://www.notion.so/help/guides/using-notion-ai) to write the texts for the projects and news. The project aims to test the limits of chatGPT and fully understand its functionalities.
@@ -96,3 +101,14 @@ So, I will move to another method.
 ## ChatGPT retry with new version
 Since I left this project for a few, I tried asking another time what I asked prevoisly and ChatGPT answered me in a better way.
 Here the link to check the conversation: https://chat.openai.com/share/02c1f300-ad1a-47e5-86ac-41b813cc23bd
+
+**I found a problem using the method**
+Is not possible to create an html page with javascript, is only possible to download it.
+So, I will continue searching for another method or create a static website.
+
+## Research continuation
+I continued asking to chatGPT other methods to create a dynamic website.
+The solution is creating a single page that updates the content using javascript, since I am a bit worried using this method because of SEO I probably will do a static portfolio.
+Here the messages with chatGPT: https://chat.openai.com/share/f38f7fec-9a03-4f15-a8f2-5c096ff91cac
+
+**The project change a bit and so will change into a static website coded trying to use only chatGPT**
