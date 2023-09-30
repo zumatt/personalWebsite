@@ -1,0 +1,14 @@
+[
+    {
+        "id": "project1",
+        "name": "Project 1",
+        "description": "Description for Project 1",
+        "image": "project1.jpg"
+    },
+    {
+        "id": "project2",
+        "name": "Project 2",
+        "description": "Description for Project 2",
+        "image": "project2.jpg"
+    }
+]
